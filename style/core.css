@@ -1,0 +1,202 @@
+html, body {position: relative;height: 100%;  background-color:#ececec; max-width: 720px; margin: 0 auto; }
+body {font-family: "Microsoft YaHei", sans-serif;font-size:14px;margin:0 auto;padding:0;width:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,li,ul{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+ul{list-style-type:none;}
+a{text-decoration:none}
+img{ border:none}
+/*清除浮动*/
+.clearfix:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.clear{clear:both; height:0; font:0/0 Arial; visibility:hidden;}
+/*图标*/
+.icon-edit{display: inline-block; background: url(../i/editorAdd.svg) no-repeat; width: 0.875rem; height: 0.875rem; position: absolute; right: 2.375rem;}
+.icon-del{display: inline-block; background: url(../i/del.svg) no-repeat; width: 0.875rem; height: 0.875rem; position: absolute; right: 0.75rem;}
+.icon-local { display: inline-block; background: url(../i/Add.svg) no-repeat ;  width: 0.75rem; height: 1rem; float: left; margin-right: 0.25rem; margin-top: -0.2rem; }
+.icon-triangle-bule {background: url(../i/triangle.svg) no-repeat; background-position: 0 50%; padding-left:0.4rem; }
+.icon-detail{  background: url(../i/integralDescription.svg) no-repeat ; padding-left:0.625rem; margin-right: 0.25rem;  }
+.icon-arrow{ position: absolute;   background: url(../i/arrow.svg) no-repeat; width:  0.8rem; height: 0.8rem ; top: 2.2rem; right: 0;}
+.icon-succes{ display: inline-block; background: url(../i/Suc.svg) no-repeat;  height: 3rem; width: 3rem; margin: 0 auto;}
+.icon-point{  vertical-align: -2px; display: inline-block; background: url(../i/integration.svg) no-repeat; width: 0.5rem; height: 0.5rem; margin-right: 0.25rem;}
+.icon-time{ vertical-align: -2px; display: inline-block; background: url(../i/time.svg) no-repeat; width: 0.5rem; height: 0.5rem; margin-right: 0.15rem; }
+.icon-triangle-ash{display: inline-block; background: url(../i/goodDetailTip.svg) no-repeat; width: 0.25rem; height: 0.3rem; margin-right: 0.25rem;}
+/*积分说明页*/
+
+.description-mainwarp {padding: 0.66rem;}
+.descriptionTitle{}
+.descriptionTitle span {font-size: 0.71rem;  color: #37b2ff; font-weight: bold; padding-left: 0.22rem;}
+.descriptionContent {margin-bottom: 1.11rem;}
+.descriptionContent p {font-size:  0.6rem; line-height: 0.98rem; color: #666666; }
+
+
+/*我的积分*/
+.myPoints-mainwarp {}
+.totalPoints-warp{height: 4.3rem;  background-color: #37b2ff; padding: 0 0.75rem;}
+.pointlist{}
+.detail-a {display: inline-block; color: #fff; font-size: 0.6rem; margin-top:0.85rem; letter-spacing: 0.04rem;  }
+.mytotalPoint{ margin-top: 0.44rem; color: #fff; text-align: right; font-size: 0.7rem;  letter-spacing: 0.04rem; }
+.mytotalPoint span {font-size: 1.2rem;}
+.Points-bar{height: 0.44rem; background-color: #ececec;}
+.pointsIncome{  position: absolute; top: 1rem; right: 0; color: #37b2ff; font-size: 0.62rem;  }
+.pointsexpend{  position: absolute; top: 1rem; right: 0; color: #eb6100; font-size: 0.62rem; }
+.pointlist-ul {background-color: #FFF;  padding: 0 0.75rem;}
+.pointlist-li {  position: relative; height: 2.6rem;  border-bottom: solid 1px #ececec;} 
+.pointlist-li p {color: #999999; font-size: 0.6rem;  padding-bottom: 0.5rem;}
+.pointlist-li p:first-child{color: #333333;  font-size: 0.7rem;  margin-top: 0.5rem;}
+
+
+/*兑换记录-详情*/
+.exDetails-mainwarp{margin-top: 0.5rem; padding: 0 0.75rem; background-color: #fff; font-size: 0.6rem;}
+.orderNum{height: 1.675rem; border-bottom: solid 1px #ececec ;  font-size: 0.7rem;}
+.orderNum span{ display: inline-block; padding-top: 0.8rem;}
+.orderNum span:first-child{color: #333;}
+.orderNum span:last-child{color: #eb6100; float: right;}
+.exInfo{position: relative; border-bottom: solid 1px #ececec ;  padding: 0.75rem 0 ;}
+.exInfo a {font-size: 0.6rem; display: inline-block; }
+.exInfo span {display: inline-block; font-size: 0.6rem; color: #999; margin-top: 0.7rem;}
+.receiveNumber {padding: 0.6rem 0; border-bottom: solid 1px #ececec ; }
+.item-pic{height: 3rem; width: 4rem; float: left; margin-right: 0.5rem; margin-top: 0.1rem;}
+.item-pic img {height: 3rem; width: 4rem;}
+.Doubt{  padding: 0.75rem 0 ; line-height: 1.1rem; }
+.receivingInfo{ border-bottom: solid 1px #ececec ; padding:  0.7rem 0 ; color: #333;  line-height: 1.1rem;}
+.detailAdd{float: right; width: 77.5%;}
+.logisticsInfo{padding: 0.7rem 0 ; line-height: 1.1rem;}
+
+/*兑换记录*/
+.exRecord{margin-top: 0.5rem; padding: 0 0.75rem; background-color: #fff; font-size: 0.6rem;}
+.exRecord .exInfo span {position: absolute; bottom: 0.8rem; left: 4.45rem;}
+.exRecord .item-pic {margin-top: 0.2rem;}
+.noMore{color: #666; text-align: center; margin-top: 0.5rem; }
+
+/*兑换成功*/
+.exSuccess-mainwarp{ padding-top: 2.65rem; text-align: center;}
+.exSuccess-mainwarp p{ color: #37b2ff; font-size: 1.05rem;  margin-top: 0.8rem;}
+.postScript {margin-top: 1.05rem; }
+.postScript p {font-size: 0.7rem; color: #666; margin-top: 0.5rem;}
+.command{ width: 11.2rem; margin: 1rem auto;}
+.btn{border: solid 2px #37b2ff;  float: left;  font-size: 0.7rem;  color:#37b2ff; border-radius: 5px;  padding: 0.4rem 0.8rem; margin-right:0.5rem; margin-left: 0.5rem;  }
+
+/*支付详情  虚拟*/
+.paymentDetails-mainwarp{padding-top: 0.5rem;}
+.goodwarp{margin-top: 0.5rem; padding: 0 0.75rem; background-color: #fff; font-size: 0.6rem;}
+.goodwarp .exInfo span { position: absolute; bottom: 0.8rem; left: 4.45rem; }
+.ex-btn { margin: 0 auto;  margin-top: 1.75rem;  background-color: #37b2ff;   font-size: 0.9rem; width: 14.5rem; color: #fff; padding: 0.675rem 0; text-align: center; }
+.numberConfrim {padding: 0 0.75rem; background-color: #fff; font-size: 0.6rem; padding-bottom: 0.75rem;  }
+.input-warper{ border-bottom:solid 1px #ececec; padding: 1.25rem 0.25rem 0.25rem 0.25rem; font-size: 0.7rem;}
+.input-warper label {color: #333; font-weight: bold;}
+.input-warper input {border: none; outline: none; font-size: 0.7rem; margin-left: 0.75rem; color: #333; }
+.input-warper span {float: right; color: #37b2ff;	}
+.input-warper input[type=text]{width: 4.5rem;}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #999;}
+
+/*取消提示*/
+.mask{background-color: rgba(0,0,0,0.8); width: 100%; height: 100%; z-index: 999; position: absolute;  top:0; left: 0; }
+.cancelUpper{position: absolute; top: 4.05rem;  left: 1.75rem; width: 12rem; background-color: #fff; padding: 0.65rem 0.5rem 0.75rem 0.5rem; z-index: 1000; text-align: center; }
+.canceltip {color: #9bbe0b;  font-size: 0.75rem; padding-bottom: 0.65rem; border-bottom: solid 0.13rem #9bbe0b;}
+.cancelPostScript{margin-top: 0.9rem; color: #333; font-size: 0.75rem; font-weight: bold;}
+.cancel-command {margin-top: 0.75rem; /*padding-bottom: 0.75rem;*/}
+.cancel-btn {font-size: 0.8rem;  color: #fff; float: left; background-color:#37b2ff; padding: 0.7rem 1.2rem; border-radius: 5px; }
+.btnL{margin-right: 0.45rem; background-color: #999;}
+.closeUpper{ position: absolute; right: 0.5rem;  top: 0.5rem; background: url(../i/cancel.png) no-repeat; width: 0.5rem; height: 0.5rem; background-size: 0.5rem;}
+
+/*支付详情 实物*/
+.consigneeAdd{ position: relative; padding: 0 0.75rem; background-color: #fff; font-size: 0.6rem; height: 5.25rem; }
+.consignorInfo {padding-top: 1.05rem; font-size: 0.7rem; color: #333; padding-bottom: 0.85rem; margin-left: 1rem; }
+.consignorInfo span:first-child{ margin-right: 3.15rem; }
+.address{width: 13.8rem;}
+.consigneeAdd .icon-arrow{right: 0.75rem;}
+
+/*收货地址历史*/
+.addList-mainwarp{}
+.addList-item{ position: relative; padding: 0 0.75rem; background-color: #fff;  padding-top: 1rem; padding-bottom: 1rem; border-bottom: solid 1px #ececec	; }
+.itemInfo{color: #333; font-size: 0.8rem; }
+.itemInfo span:first-child{padding-right: 1.3rem;}
+.itemDetail{color: #999; margin-top: 0.6rem; font-size: 0.7rem;}
+.defaultAdd{color: #eb6100;}
+
+/*首次设置地址*/
+.fristAdd-mainwarp{padding-top: 0.5rem;}
+.fristAdd-mainwarp .consigneeAdd .address{padding-top: 2.125rem;}
+
+/*编辑地址*/
+.editAdd-mainwarp{ }
+.editfrom{ background: #fff;}
+.input-Add-warp  { position: relative; padding-left: 0.5rem; padding-top: 0.75rem; padding-bottom: 0.75rem; border-bottom: solid 1px #ececec;}
+.input-Add-warp input {border: none; outline: none; font-size: 0.7rem; margin-left: 0.75rem; color: #333; }
+.input-Add-warp label {padding-left: 0.25rem; color: #333;}
+.input-Add-warp label:last-child{color: #999;}
+.input-Add-warp .icon-arrow{ top: 0.8rem; right: 0.75rem; height: 0.6rem;}
+.input-Add-warp input[type="checkbox"]{margin: 0;}
+.editfrom-btn {margin:0.75rem 0.75rem 0 0.75rem; padding: 0.675rem 5rem; background-color: #37b2ff; border-radius: 5px; color: #fff; font-size: 0.9rem;}
+
+/*删除提示*/
+.addList-mainwarp .cancelUpper .cancel-btn{ padding: 0.7rem 2rem;}
+
+
+
+/*主页*/
+.index-mainwarp{}
+
+.banner{position: relative; overflow: hidden; height: 7rem; width: 16rem; margin-bottom: 0.5rem; }	
+.bannerWarp{overflow: hidden; position: absolute; top: 0; left: 0;  width:80rem; height: 7rem;  	-webkit-transition: all 800ms ease; -moz-transition: all 800ms ease; -o-transition: all 800ms ease;	transition: all 800ms ease;}
+.banner-item {position: relative; float: left; overflow: hidden; height: 7rem; width: 16rem; }
+.banner-item img {height: 7rem; width: 16rem;}
+
+.active {background-color: white; border-radius: 20px; width: 0.3rem; height: 0.3rem; margin-right: 0.2rem;} 
+.circle { float: left; border-radius: 20px; border: solid 1px #fff; width: 0.3rem; height: 0.3rem; margin-right: 0.2rem;}
+.jiaodian{ position: absolute; top: 6.5rem; left: 6.65rem; height: 0.5rem; width: 4rem; margin: 0 auto;}
+.jiaodian li {float: left;}
+
+.goodsItem{ margin-bottom: 0.25rem;}
+.goodsPic { position: relative; width: 16rem; height: 8rem;}
+.goodsPic .circleMask{height: 2.75rem; width: 2.75rem; top:2.5rem; left: 6.45rem; line-height: 2.75rem; text-align: center; color: #fff; font-size: 0.7rem; }
+.goodsPic img  {width: 16rem; height: 8rem;}
+.goodsDetails { padding: 0.3rem 0.75rem 0.5rem 0.75rem; background-color: #fff; }
+.goodsDetails p {font-size: 0.6rem; color: #333;}
+.goodsDetails a {color: #999;}
+.goodsDetails p:last-child {margin-top: 0.5rem; font-size: 0.5rem;}
+.goodsDetails p:last-child a:first-child {color: #37b2ff; margin-right	: 4rem;}
+.goodsDetails p:last-child a:last-child {margin-left: 1rem;}
+.goodsDetails span {color: #eb6100;}
+
+/*商品详情页*/
+.goodsdetail-mainwarp{padding-bottom: 2.3rem;}
+.goodPic{ width: 16rem; height:12rem;  }
+.goodPic img {width: 16rem; height:12rem;}
+.goodsName { position: relative; padding: 0 0.75rem; font-size: 0.7rem; background-color: #fff; padding-top: 0.75rem;  padding-bottom: 0.5rem; border-bottom: solid 1px #ececec ;}
+.goodsName a {max-width: 9.8rem; display: inline-block;}
+.goodsName a:last-child{  font-size: 0.6rem;  color: #37b2ff; position: absolute; right: 0.75rem; bottom: 0.5rem; }
+.goodsName span {font-size: 1.2rem; color: #37b2ff; margin-right: 0.2rem;}
+
+.goodsInfo{ position: relative; background-color: #fff;  padding: 0.5rem 0.75rem; font-size: 0.5rem;  margin-bottom: 0.5rem; }
+.goodsInfo a:last-child{ position: absolute; right: 0.75rem; top:0.5rem;}
+.goodsInfo span {color: #eb6100;}
+
+.graphicDetails {background-color: #fff;  padding: 0 0.75rem; font-size: 0.6rem;  color: #666; }
+.graphicDetails a {color: #37b2ff;}
+.graphicDetails p {line-height: 1.2rem;}
+.detailsTitle {border-bottom: solid 1px #ececec; padding: 0.5rem 0 ; }
+
+.exchangeBtn{position: fixed; bottom: 0; height: 2.2rem;  width: 16rem; color: #fff; background-color: #37b2ff; font-size: 0.9rem; line-height: 2.2rem; text-align: center;}
+.circleMask{background-color: rgba(0,0,0,0.3); height: 5rem; width: 5rem; position: absolute;  top:3.5rem; left: 5.5rem; border-radius: 3rem; line-height: 5rem; text-align: center; color: #fff; font-size: 0.8rem; z-index: 99; }
+
+
+@media (max-width:320px) {
+
+.goodsDetails p:last-child {margin-top: 0.5rem; font-size: 0.5rem;}
+.goodsDetails p:last-child a:first-child {color: #37b2ff; margin-right	: 3rem;}
+.goodsDetails p:last-child a:last-child {margin-left: 0.6rem;}  }
+
+
+
+/*增加选择区域*/
+.cancelUpper .btn {border: solid 1px #37b2ff;     padding: 0.45rem 1.75rem; margin: 0; margin-bottom: 0.5rem;}
+.cancelUpper .btn:nth-child(2n) {margin-left: 0.45rem;}
+
+
+/*增加兑换记录button*/
+.ball{position: fixed;  bottom: 0.90rem; border-radius: 2.27rem; right: 0.90rem; height: 3rem; width: 3rem; background-color: rgba(255,255,255,0.6); }
+.ball img {height: 2rem; width: 2rem; padding: 0.5rem 0.5rem;}
